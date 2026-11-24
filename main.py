@@ -2,6 +2,6 @@ import os
 
 output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(output_dir, exist_ok=True)
-entry = "Dear fern: great luck ahead. Sunshine, fresh water, and zero repotting drama this week."
+entry = "Little plant, big fortune: this week brings sun, compliments, and a new leaf. Do not tell the cactus."
 with open(os.path.join(output_dir, "entry.txt"), "w", encoding="utf-8") as f:
     f.write(entry)
