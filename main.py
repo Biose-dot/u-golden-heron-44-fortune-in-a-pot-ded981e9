@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Fortune in a Pot — make.fun entry.
 
-The fortune is rewritten as a letter to the fern itself: sunshine, kind words, and — the real miracle — a watering can with a memory.
+The fortune is rewritten as a letter to the fern itself: sunlight, compliments, and — the real miracle — a watering can with a memory.
 """
 import os
 
-ENTRY = 'Dear fern: this week brings sunshine, kind words, and a watering can that finally remembers you are alive.'
+ENTRY = 'Dear fern: this week brings sunlight, compliments, and a watering can that finally remembers you exist.'
 
 
 def main() -> None:
