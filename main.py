@@ -1,7 +1,7 @@
 import os
 
-out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-os.makedirs(out, exist_ok=True)
-text = "Little plant, your future is bright and leafy: expect sunshine, compliments, and only one near-death by overwatering."
-with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-    f.write(text)
+output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+os.makedirs(output_dir, exist_ok=True)
+entry = "Dear fern: great luck ahead. Sunshine, fresh water, and zero repotting drama this week."
+with open(os.path.join(output_dir, "entry.txt"), "w", encoding="utf-8") as f:
+    f.write(entry)
