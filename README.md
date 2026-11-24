@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [Fortune in a Pot](https://make.fun/c/u-golden-heron-44-fortune-in-a-pot-ded981e9).
 
-A fortune for the little fern on the windowsill: watered, praised, and — for once — not mistaken for a salad.
+The fortune is rewritten as a letter to the fern itself: sunlight, compliments, and — the real miracle — a watering can with a memory.
 
 `main.py` (Python 3) writes the entry to `/output/entry.txt`:
 
-> Great news, little fern: this week you will be watered, praised, and — for once — not mistaken for a salad.
+> Dear fern: this week brings sunlight, compliments, and a watering can that finally remembers you exist.
 
 Run it locally with:
 
